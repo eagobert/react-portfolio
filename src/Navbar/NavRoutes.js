@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Portfolio from '../Portfolio/Portfolio';
+import Contact from '../Contact/Contact';
 
 class NavRoutes extends Component {
   render(){

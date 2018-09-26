@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Nav from './Nav';
-import NavRoutes from './NavRoutes';
+import Nav from './Navbar/Nav';
+import NavRoutes from './Navbar/NavRoutes';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
           </header>
 
           <section className="App-body">
-            <NavRoutes/>
+              <NavRoutes/>
           </section>
         </div>
 
