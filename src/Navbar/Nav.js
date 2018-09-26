@@ -7,12 +7,11 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-        
           <Link to="/" className="navbar-brand">
             <span className="one">Erin</span>
             <span className="two">Agobert</span>
           </Link>
-
+          
           <ul className="nav">
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
