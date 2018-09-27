@@ -5,14 +5,13 @@ import './Nav.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg">
-        <div className="container">
-          <Link to="/" className="navbar-brand">
+      <nav className="navbar navbar-expand-lg row align-items-center">
+          <Link to="/" className="navbar-brand col">
             <span className="one">Erin</span>
             <span className="two">Agobert</span>
           </Link>
           
-          <ul className="nav">
+          <ul className="nav col justify-content-end">
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
             </li>
@@ -26,7 +25,6 @@ class Nav extends Component {
               <Link to="/contact" className="nav-link">Contact</Link>
             </li>
           </ul>
-        </div>
       </nav>
     );
   }
