@@ -6,10 +6,12 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg row align-items-center">
-          <Link to="/" className="navbar-brand col">
-            <span className="one">Erin</span>
-            <span className="two">Agobert</span>
-          </Link>
+          <div className="navbar-brand col">
+            <div id="logo" >
+              <div className="one">Erin</div>
+              <div className="two">Agobert</div>
+            </div>
+          </div>
           
           <ul className="nav col justify-content-end">
             <li className="nav-item">

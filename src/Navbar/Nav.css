@@ -29,3 +29,10 @@ nav ul {
   margin: 0;
   padding-right: 45px;
 }
+
+#logo {
+  background-color: #AB5484;
+  border-radius: 5px;
+  width: 300px;
+  height: 72px;
+}
