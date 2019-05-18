@@ -7,9 +7,11 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg row align-items-center">
           <div className="navbar-brand col">
-            <div id="logo" >
-              <div className="one">Erin</div>
-              <div className="two">Agobert</div>
+            <div id="logo">
+              <div className="logoContainer"> 
+                <span className="firstName">Erin</span>
+                <span className="lastName">Agobert</span>
+              </div>
             </div>
           </div>
           
