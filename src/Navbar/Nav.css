@@ -38,8 +38,9 @@ nav ul {
 }
 
 .logoContainer {
-  padding-left: 50px;
+  height: 45px;
   padding-top: 15px;
+  padding-left: 25px;
 }
 
 .firstName {
@@ -50,6 +51,7 @@ nav ul {
   line-height: 45px;
   width: 91px;
   text-align: left;
+  padding-right: 10px;
 }
 
 .lastName {

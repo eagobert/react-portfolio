@@ -9,8 +9,8 @@ class Nav extends Component {
           <div className="navbar-brand col">
             <div id="logo">
               <div className="logoContainer"> 
-                <span className="firstName">Erin</span>
-                <span className="lastName">Agobert</span>
+                <span className="firstName">ERIN</span>
+                <span className="lastName">AGOBERT</span>
               </div>
             </div>
           </div>
