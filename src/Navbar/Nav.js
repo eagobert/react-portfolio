@@ -5,8 +5,8 @@ import './Nav.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg row align-items-center">
-          <div className="navbar-brand col">
+      <nav className="d-flex flex-row navbar navbar-expand-lg align-items-center">
+          <div className="d-flex flex-column navbar-brand">
             <div id="logo">
               <div className="logoContainer"> 
                 <span className="firstName">ERIN</span>
@@ -15,7 +15,7 @@ class Nav extends Component {
             </div>
           </div>
           
-          <ul className="nav col justify-content-end">
+          <ul className="d-flex nav col justify-content-end">
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
             </li>
