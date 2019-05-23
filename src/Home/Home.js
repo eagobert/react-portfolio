@@ -5,7 +5,8 @@ class Home extends Component {
   render(){
     return(
       <React.Fragment>
-        <div id="nameBox">
+        <div className="col"></div>
+        <div id="nameBox" className="jumbotron col-lg-6 col-xl-8 align-self-center">
           <div id="minorBox">
             <div id="myName">
               <span className="first">ERIN</span>
@@ -15,8 +16,8 @@ class Home extends Component {
               <span className="title">Full-Stack Software Developer</span>
             </div>
           </div>
-
         </div>
+        <div className="col"></div>
         
       </React.Fragment>
     );
