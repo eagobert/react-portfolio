@@ -5,8 +5,8 @@ import './Nav.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg row align-items-center">
-          <div className="navbar-brand col">
+      <nav className="navbar navbar-expand-lg">
+          <div className="navbar-brand">
             <div id="logo">
               <div className="logoContainer"> 
                 <span className="firstName">ERIN</span>
