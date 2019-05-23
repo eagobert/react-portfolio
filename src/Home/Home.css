@@ -2,11 +2,11 @@
   background-color: #AB5484;
   border-radius: 5px;
   opacity: 0.82;
-  width: 860px;
+  position: sticky;
+  width: 900px;
   height: 440px;
-  position: relative;
-  left: 290px;
-  top: 200px;
+  top: 400px;
+  left: 376px;
 }
 
 #minorBox{

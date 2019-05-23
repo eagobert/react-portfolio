@@ -16,7 +16,7 @@ class App extends Component {
             <Nav/>
           </header>
 
-          <section className="App-body">
+          <section className="App-body d-flex">
               <NavRoutes/>
           </section>
         </div>
