@@ -15,7 +15,7 @@ class Nav extends Component {
             </div>
           </div>
           
-          <ul className="nav col justify-content-end">
+          <ul className="container nav col justify-content-end">
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
             </li>

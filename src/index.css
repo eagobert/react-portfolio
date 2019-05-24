@@ -1,1 +1,7 @@
-
+#root{
+  background: url("./Assets/toa-heftiba-417510-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  height: 100%;
+  overflow: hidden;
+}
