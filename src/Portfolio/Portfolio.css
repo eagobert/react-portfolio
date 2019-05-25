@@ -1,0 +1,29 @@
+.card {
+  background-color: #AB5484;
+  opacity: 0.82;
+}
+
+/* .card-img-top {
+  width: 300px;
+  height: 200px;
+} */
+
+.card-title {
+  color: #47525E;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  width: 325.99px;
+  text-align: left;
+}
+
+.card-text {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 325.99px;
+  text-align: left;
+}
