@@ -11,14 +11,15 @@ class App extends Component {
     return (
 
         <div className="App container-fluid">
-
           <header className="App-header">
             <Nav/>
           </header>
-
-          <section className="App-body d-flex">
-              <NavRoutes/>
-          </section>
+          
+          <div className="container">
+            <section className="App-body d-flex">
+                <NavRoutes/>
+            </section>
+          </div>
         </div>
 
     );
